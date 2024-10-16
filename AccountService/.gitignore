@@ -1,0 +1,32 @@
+# Ignore Visual Studio temporary files, build results, and
+# build directories.
+#
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (Mono Auto Generated)
+mono_crash.*
+
+# Auto-generated VS Code Debugger launch.json/dataset config
+.vscode/launch.json
+
+# Logs
+*.log
+
+# Ignore EF Core Migration DLLs and other runtime-generated DLLs
+**/bin/
+**/obj/
+**/Migrations/*ModelSnapshot.cs
+**/Migrations/*.Designer.cs
+**/Migrations/*.cs
+
+# Uncomment if you have tasks that create the SQL script files during migrations
+# **/Migrations/*.sql
+
+# Packages
+*.nupkg
+*.snupkg
